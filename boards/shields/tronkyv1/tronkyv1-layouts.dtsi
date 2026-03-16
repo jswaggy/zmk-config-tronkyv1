@@ -1,0 +1,20 @@
+#include <physical_layouts.dtsi>
+
+/ {
+    physical_layout_tronkyv1: physical_layout_tronkyv1 {
+        compatible = "zmk,physical-layout";
+        display-name = "tronkyv1";
+        keys  //                     w   h    x    y     rot    rx    ry
+            = <&key_physical_attrs 100 100    0    0   32000    50    50>
+            , <&key_physical_attrs 100 100  100  150   34500   150   200>
+            , <&key_physical_attrs 100 100  175  300       0   175   300>
+            , <&key_physical_attrs 100 100  325  300       0   325   300>
+            , <&key_physical_attrs 100 100  325  450       0   325   450>
+            , <&key_physical_attrs 100 100  325  600       0   325   600>
+            , <&key_physical_attrs 100 100  325  750       0   325   750>
+            , <&key_physical_attrs 100 100  650    0    4000   700    50>
+            , <&key_physical_attrs 100 100  550  150    1500   600   200>
+            , <&key_physical_attrs 100 100  475  300       0   475   300>
+            ;
+    };
+};
